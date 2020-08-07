@@ -1,0 +1,12 @@
+conda install --channel https://conda.anaconda.org/menpo opencv
+pip install opencv-python
+conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0 -c pytorch
+conda install matplotlib
+conda install scipy
+pip install easydict
+
+
+
+#升级pip到最新的版本
+python -m pip install --upgrade pip  -i https://pypi.tuna.tsinghua.edu.cn/simple/
+pip install  --default-timeout=100  easydict    -i https://pypi.tuna.tsinghua.edu.cn/simple/
